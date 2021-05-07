@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+canvas {
+	position: absolute;
+}
+
+button {
+	position: absolute;
+	text-align: center;
+	margin: 10px;
+	padding: 7px 10px;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	color: #3c3836;
+	box-shadow: 0 4px #282828;
+}
+
+button:active {
+	transform: translateY(4px);
+	-webkit-transform: translateY(4px);
+	box-shadow: none;
+}
