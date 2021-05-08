@@ -8,22 +8,25 @@ canvas {
 }
 
 button {
+	width: 150px;
 	position: absolute;
-	text-align: center;
 	margin: 10px;
-	padding: 7px 10px;
+	padding: 7px;
+
 	cursor: pointer;
+
 	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 	font-size: 14px;
-	border-radius: 10px;
-	border: none;
+	text-align: center;
+
+	border-radius: 20px;
+	border: 1px #282828;
 	outline: none;
+
 	color: #3c3836;
-	box-shadow: 0 4px #282828;
 }
 
 button:active {
-	transform: translateY(4px);
-	-webkit-transform: translateY(4px);
-	box-shadow: none;
+	transform: translateY(2px);
 }
