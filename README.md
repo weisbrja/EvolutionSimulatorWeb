@@ -1,3 +1,3 @@
 # Evolution Simulator Web
 
-This is Evolution Simulator is being developed using a JavaScript Frontend and Gradle.
+This is my [Evolution Simulator](https://github.com/weisbrja/EvolutionSimulator) with a JavaScript Frontend and a Java Backend.
